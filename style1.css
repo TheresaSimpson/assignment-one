@@ -1,0 +1,344 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  font-size: 10px;
+}
+header {
+  font-size: 1.5rem;
+  height: 90px;
+  padding: 0rem 1.5rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  width: 60%;
+}
+a {
+  text-decoration: none;
+  
+}
+h2 {
+  text-align: center;
+  font-style: oblique;
+}
+hr {
+  width: 5rem;
+  height: 5px;
+  margin: 0 auto;
+  background-color: rgb(150, 117, 73);
+  border: none;
+}
+
+
+
+.sec1 {
+  width: 95vw;
+  height: 70vh;
+  align-items: center;
+  margin: 1rem 1rem 0rem 2rem;
+  background-image: url(./background.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.sec2 {
+  width: 95vw;
+  height: 70vh;
+  align-items: center;
+  margin: 0rem 1rem 1rem 2rem;
+  background-position: center;
+  background-size: cover;
+  
+}
+.sec2-h2{
+display: block;
+ height: 20%;
+justify-content: center;
+align-items: center;
+padding: 2rem;
+}
+
+.bmd {
+  display: block;
+  height: 80%;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+h4{
+  text-align: center;
+  font-style: oblique;
+font-size: 20px;
+
+}
+.homemade{
+  height: 50%;
+  width: 20%;
+  background-image: url(./homemade-bread.jpg);
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+.meals{
+  height: 50%;
+  width: 20%;
+  background-image: url(./sandwitch.jpeg);
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+.drinks{
+  height: 50%;
+  width: 20%;
+  background-image: url(./original-drinks.jpg);
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+
+.sec3 {
+  width: 95vw;
+  height: 70vh;
+  align-items: center;
+  margin: 0rem 1rem 0rem 2rem;
+  background: rgb(56, 90, 155);
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.story{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.sec3-h1{
+  padding-bottom: 2rem;
+}
+
+.oven{
+  height: 100%;
+  width: 100%;
+  background-image: url(./oven.jpeg);
+  justify-content: center;
+  
+
+}
+
+
+.sec4 {
+  width: 95vw;
+  height: 70vh;
+  align-items: center;
+  margin: 0rem 1rem 0rem 2rem;
+  background-position: center;
+  background-color: rgb(247, 241, 232);
+  background-size: cover;
+}
+
+.sec4-h2 {
+  display: block;
+  height: 20%;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.restaurant {
+  display: block;
+  height: 80%;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.breakfast {
+  height: 90%;
+  width: 30%;
+  background-image: url(./breakfast.jpeg);
+  background-size: cover;
+}
+
+.lunch {
+  height: 90%;
+  width: 30%;
+  background-image: url(./lunch.jpeg);
+  background-size: cover;
+}
+
+.seasonal {
+  height: 90%;
+  width: 30%;
+  background-image: url(./seasonal.jpeg);
+  background-size: cover;
+}
+
+.sec5 {
+  width: 95vw;
+  height: 70vh;
+  align-items: center;
+  margin: 0rem 1rem 0rem 2rem;
+  background-position: center;
+  background-color: white;
+  background-size: cover;
+}
+
+.sec5-h2{
+display: block;
+  height: 20%;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  
+
+}
+
+.bread {
+display: block;
+height: 80%;
+align-items: center;
+display: flex;
+justify-content: space-evenly;
+background-size: contain;
+background-position: center;
+}
+
+.bag{
+  height: 50%;
+  width: 20%;
+  background-image: url(./baguette.png);
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+
+.rye {
+  height: 50%;
+  width: 20%;
+  background-image: url(./rye\ bread.jpeg);
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+  
+
+}
+
+.wheat{
+  height: 50%;
+  width: 20%;
+  background-image: url(./wheatbread.png);
+ background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+
+.cros{
+height: 50%;
+width: 20%;
+background-image:url(./Croissant.jpeg) ;
+background-position: center;
+background-size:contain;
+background-repeat: no-repeat;
+}
+
+
+
+.sec6 {
+  width: 95vw;
+  height: 70vh;
+  align-items: center;
+  margin: 0rem 1rem 1rem 2rem;
+  background-position: center;
+  background-color: rgba(212, 209, 209, 0.295);
+  background-size: cover;
+  display: grid;
+grid-template-columns: 1fr 1fr ;
+
+}
+
+.main-subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+.slicebread {
+  height: 100%;
+  width: 100%;
+  background-image: url(./slicebread.jpeg);
+  background-size: cover;
+  justify-content: center;
+  
+}
+
+
+.subscribe {
+  
+  text-align: center;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttonIn {
+  width: 250px;
+  left: 10%;
+  position: relative;
+  background-position: center;
+}
+
+input {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  outline-color: rgb(150, 117, 73);
+  height: 30px;
+  border-radius: 6px;
+  padding: 1rem 1rem 2rem ;
+  
+}
+button {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  z-index: 2;
+  border: none;
+  top: 2px;
+  height: 30px;
+  background-color: rgb(150, 117, 73);
+  padding: 1rem 1rem 2rem 1rem;
+}
+
+
+footer {
+  width: 95vw;
+  height: 30vh;
+  align-items: center;
+  margin: 0rem 1rem 3rem 2rem;
+  background-position: center;
+  background-color: rgb(75, 68, 68);
+}
+
