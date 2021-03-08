@@ -75,7 +75,7 @@ padding: 2rem;
   height: 80%;
   align-items: center;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 h4{
   text-align: center;
@@ -83,34 +83,27 @@ h4{
 font-size: 20px;
 
 }
+
+.bmdImg{
+height: 35vh;
+width: 30vw;
+border-radius: 50%;
+background-size: cover;
+background-position: center;
+
+}
 .homemade{
-  height: 50%;
-  width: 20%;
-  background-image: url(./homemade-bread.jpg);
-  background-position: center;
-  background-size:contain;
-  background-repeat: no-repeat;
-  border-radius: 50%;
+background-image: url(./homemade-bread.jpg); 
 }
 
 .meals{
-  height: 50%;
-  width: 20%;
+  
   background-image: url(./sandwitch.jpeg);
-  background-position: center;
-  background-size:contain;
-  background-repeat: no-repeat;
-  border-radius: 50%;
+  
 }
 .drinks{
-  height: 50%;
-  width: 20%;
-  background-image: url(./original-drinks.jpg);
-  background-position: center;
-  background-size:contain;
-  background-repeat: no-repeat;
-  border-radius: 50%;
-}
+background-image: url(./original-drinks.jpg);
+} 
 
 
 .sec3 {
@@ -172,25 +165,25 @@ font-size: 20px;
   display: flex;
   justify-content: space-evenly;
 }
-.breakfast {
-  height: 90%;
-  width: 30%;
-  background-image: url(./breakfast.jpeg);
+.restaurantImg{
+ height: 50vh;
+  width: 25vw;
   background-size: cover;
+
+}
+
+.breakfast {
+ 
+  background-image: url(./breakfast.jpeg);
+  
 }
 
 .lunch {
-  height: 90%;
-  width: 30%;
   background-image: url(./lunch.jpeg);
-  background-size: cover;
 }
 
 .seasonal {
-  height: 90%;
-  width: 30%;
   background-image: url(./seasonal.jpeg);
-  background-size: cover;
 }
 
 .sec5 {
