@@ -173,9 +173,7 @@ background-image: url(./original-drinks.jpg);
 }
 
 .breakfast {
- 
-  background-image: url(./breakfast.jpeg);
-  
+background-image: url(./breakfast.jpeg); 
 }
 
 .lunch {
@@ -216,42 +214,30 @@ background-size: contain;
 background-position: center;
 }
 
-.bag{
-  height: 50%;
+.breadImg{
+ height: 50%;
   width: 20%;
-  background-image: url(./baguette.png);
-  background-position: center;
-  background-size:contain;
-  background-repeat: no-repeat;
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+
+.bag{
+ background-image: url(./baguette.png); 
 }
 
 .rye {
-  height: 50%;
-  width: 20%;
-  background-image: url(./rye\ bread.jpeg);
-  background-position: center;
-  background-size:contain;
-  background-repeat: no-repeat;
   
-
+  background-image: url(./rye\ bread.jpeg);
+  
 }
-
 .wheat{
-  height: 50%;
-  width: 20%;
   background-image: url(./wheatbread.png);
- background-position: center;
-  background-size:contain;
-  background-repeat: no-repeat;
 }
 
 .cros{
-height: 50%;
-width: 20%;
 background-image:url(./Croissant.jpeg) ;
-background-position: center;
-background-size:contain;
-background-repeat: no-repeat;
+
 }
 
 
