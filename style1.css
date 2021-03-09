@@ -104,7 +104,10 @@ background-image: url(./homemade-bread.jpg);
 .drinks{
 background-image: url(./original-drinks.jpg);
 } 
-
+.text{
+  transform: rotate(-15deg);
+  color: rgb(153, 104, 41);
+}
 
 .sec3 {
   width: 95vw;
@@ -183,7 +186,14 @@ background-image: url(./breakfast.jpeg);
 .seasonal {
   background-image: url(./seasonal.jpeg);
 }
+.resttext{
+margin-top: 9rem;
+color: white;
+font-style: normal;
 
+
+
+}
 .sec5 {
   width: 95vw;
   height: 70vh;
@@ -261,7 +271,6 @@ grid-template-columns: 1fr 1fr ;
   align-items: center;
 
 }
-
 
 .slicebread {
   height: 100%;
